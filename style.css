@@ -6,7 +6,7 @@ main{
     display: flex;
     margin-top: -8px;
     margin-left: -10px;
-    height: 650px;
+    height: 710px;
     
 }
 #twitter_image{
@@ -19,7 +19,7 @@ main{
 }
 #txt_contents{
     /* margin-left: 20px; */
-    padding-top: 43px;
+    padding-top: 67px;
     padding-left: 35px;
 
 
@@ -51,7 +51,7 @@ h2{
 
 }
 .sign_up{
-    margin: 10px 0px 15px;
+    margin: 15px 0px 15px;
     width: 380px;
     height: 48px;
     background-color: white;
