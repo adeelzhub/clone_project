@@ -141,7 +141,9 @@ footer{
         flex-direction: column;
     }
     main {
-        flex-direction: column-reverse
+        flex-direction: column-reverse;
+        height:auto;
+        
     }
     main{
         order: 1;
