@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
+jj@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     
+    font-size: Helvetica, sans-serif;
 }
 body{
-    background-color: rgba(1,188,239,.01);
+    background-color: white;
     box-sizing: border-box;
     
 }
@@ -22,6 +23,8 @@ main{
     
 }
 #panel1 img{
+    margin-top: -8px;
+    margin-left: -11px;
     width: 100%;
     height: 100%;
 }
@@ -64,7 +67,7 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
 }
-.googlebtn{
+.signup_txt{
     margin-left: 10px;
     align-self: center;
     font-size: 15px;
@@ -101,7 +104,7 @@ h3{
 }
 #nav ul{
     height: 100%;
-    margin: 15px 100px 20px;
+    margin: 10px 35px 0px;
     display: flex;
     /* background-color: cornsilk; */
     flex-direction: row;
@@ -111,7 +114,7 @@ h3{
 }
 .nav_link{
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0,.6);
 }
 .nav_link:hover{
     text-decoration: underline;
